@@ -35,3 +35,24 @@ In your browser, type the following URL:
 http://<project-name>.<username>.c9.io/getname/<your name>/<your city>
 ```
 Try to explain what happended.
+
+
+#### Next
+add the following code snippet to the end of ```app.rb```:
+```
+get '/getname/*' do
+    arr = params[:splat]
+    ret = ''
+    arr[0].split('/').each do |param| 
+        ret += (param + '<br/>')
+    end
+    ret
+end
+```
+In your browser, type the following URL:
+```
+http://<project-name>.<username>.c9.io/getname/1/2/3/4
+```
+Try to explain what happended.
+
+
