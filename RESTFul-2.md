@@ -4,7 +4,7 @@ Find a partner and begin typing the following exercises. You should alternate wh
 
 #### Work out a POST example in Sinatra
 add the following code snippet to ```app.rb`` file:
-```
+```ruby
 get '/form' do
     erb :form
 end
@@ -15,7 +15,7 @@ end
 ```
 
 Create a directory called ```views``` and add a new file called ```form.erb``` with the following content
-```
+```html
 <form action="/form" method="post">
     <input type="text" name="message">
     <input type="submit">

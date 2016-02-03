@@ -13,7 +13,7 @@ gem install sinatra
 ```
 #### Write a Hello World Sinatra App
 Create an empty Ruby workspace. In the root directory of your workspace, create a file ```app.rb```. Type the following content in the file:
-```
+```ruby
 require "sinatra"
 
 get "/" do

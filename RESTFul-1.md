@@ -4,7 +4,7 @@ Find a partner and begin typing the following exercises. You should alternate wh
 
 #### Get Single Parameter from URL
 add the following code snippet to ```app.rb`` file:
-```
+```ruby
 get "/getname/:name" do
     "Welcom, #{params[:name]}!"
 end
@@ -25,7 +25,7 @@ Try to explain what happended.
 
 #### Get Multiple Parameters from URL
 add the following code snippet to ```app.rb```:
-```
+```ruby
 get '/getname/:name/:city' do
   "Hey there #{params[:name]} from #{params[:city]}."
 end
@@ -39,7 +39,7 @@ Try to explain what happended.
 
 #### Next
 add the following code snippet to the end of ```app.rb```:
-```
+```ruby
 get '/getname/*' do
     arr = params[:splat]
     ret = ''
