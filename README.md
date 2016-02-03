@@ -32,3 +32,7 @@ In your browser, type the following URL to try your first Sinatra app:
 http://<project-name>.<username>.c9.io
 ```
 Replace ```<project-name>``` and ```<username>``` with your C9 root directory name and your C9 username respectively. For example, my url is:  ```https://test-sinatra-jacksongl.c9users.io/```.
+
+#### Exercise:
+Add another page to your site with URL ```http://<project-name>.<username>.c9.io/about```.
+The page should display content: ```My name is <your name>```
