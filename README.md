@@ -36,3 +36,5 @@ Replace ```<project-name>``` and ```<username>``` with your C9 root directory na
 #### Exercise:
 Add another page to your site with URL ```http://<project-name>.<username>.c9.io/about```.
 The page should display content: ```My name is <your name>.```
+
+Go the [next page](RESTFul-1.md) of this tutorial.
