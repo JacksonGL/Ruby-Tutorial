@@ -5,7 +5,7 @@ Find a partner and begin typing the following exercises. You should alternate wh
 #### Get Single Parameter from URL
 add the following code snippet to ```app.rb`` file:
 ```ruby
-get "/getname/:name" do
+get "/getname/:name" do |name|
     "Welcom, #{params[:name]}!"
 end
 ```
