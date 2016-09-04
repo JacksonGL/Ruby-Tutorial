@@ -36,6 +36,28 @@ http://<project-name>.<username>.c9.io/getname/<your name>/<your city>
 ```
 Try to explain what happended.
 
+#### Duplicated Routing
+add the following code snippet to ```app.rb``` (right after the above code snippet)
+```ruby
+get '/getname/:name/:city' do
+  "Alternative routing result: #{params[:name]} from #{params[:city]}."
+end
+```
+Restart the server, in your browser, type the following URL:
+```
+http://<project-name>.<username>.c9.io/getname/<your name>/<your city>
+```
+See the result in the browser and reorganize your code to change the code snippet order as follows:
+```ruby
+get '/getname/:name/:city' do
+  "Alternative routing result: #{params[:name]} from #{params[:city]}."
+end
+
+get '/getname/:name/:city' do
+  "Hey there #{params[:name]} from #{params[:city]}."
+end
+```
+Try to explain what happended.
 
 #### Next
 add the following code snippet to the end of ```app.rb```:
