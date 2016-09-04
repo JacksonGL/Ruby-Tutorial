@@ -6,7 +6,7 @@ Find a partner and begin typing the following exercises. You should alternate wh
 add the following code snippet to ```app.rb`` file:
 ```ruby
 get "/getname/:name" do |name|
-    "Welcom, #{params[:name]}!"
+    "Welcome, #{params[:name]}!"
 end
 ```
 #### Restart the App
