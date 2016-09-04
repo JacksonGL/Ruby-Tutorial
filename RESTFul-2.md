@@ -31,7 +31,7 @@ ruby app.rb -p $PORT -o $IP
 #### Try Your App
 First go to the following URL:
 ```
-http://<project-name>.<username>.c9.io/form
+http://<project-name>-<username>.c9users.io/form
 ```
 Type a message in the text box and click <kbd>submit</kbd>. Try to explain how it works.
 
