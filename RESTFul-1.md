@@ -18,7 +18,7 @@ ruby app.rb -p $PORT -o $IP
 #### Try Your App
 In your browser, type the following URL:
 ```
-http://<project-name>.<username>.c9.io/getname/<your name>
+http://<project-name>-<username>.c9users.io/getname/<your name>
 ```
 Try to explain what happended.
 
@@ -32,7 +32,7 @@ end
 ```
 In your browser, type the following URL:
 ```
-http://<project-name>.<username>.c9.io/getname/<your name>/<your city>
+http://<project-name>-<username>.c9users.io/getname/<your name>/<your city>
 ```
 Try to explain what happended.
 
@@ -45,7 +45,7 @@ end
 ```
 Restart the server, in your browser, type the following URL:
 ```
-http://<project-name>.<username>.c9.io/getname/<your name>/<your city>
+http://<project-name>-<username>.c9users.io/getname/<your name>/<your city>
 ```
 See the result in the browser and reorganize your code to change the code snippet order as follows:
 ```ruby
@@ -73,7 +73,7 @@ end
 ```
 In your browser, type the following URL:
 ```
-http://<project-name>.<username>.c9.io/getname/1/2/3/4
+http://<project-name>-<username>.c9users.io/getname/1/2/3/4
 ```
 Try to explain what happended.
 
